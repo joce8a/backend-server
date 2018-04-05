@@ -2,8 +2,6 @@ var SEED = require('../config/config').SEED;
 
 var jwt = require('jsonwebtoken');
 
-
-
 exports.verificaToken = function(req, res, next) {
 
     var token = req.query.token;
